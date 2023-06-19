@@ -11,10 +11,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: #ef233c; */
 }
 
 .timer-display {
     height: 80px;
+    font-size: 48px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .timer-buttons {
@@ -25,22 +30,24 @@
 .btn {
     padding: 10px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
+    border: none;
     
 }
 
 .start {
-    background-color: green;
-    color: white;
+    /* background-color: green; */
+    color: #fff;
+    background-color: #60d394;
 }
 
 .pause {
-    background-color: red;
+    background-color: #ff5a5f;
     color: white;
 }
 
 .reset {
-    background-color: blue;
+    background-color: #3fa7d6;
     color: white;
 }
