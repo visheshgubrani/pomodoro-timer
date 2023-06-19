@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.timer {
+    border: 2px solid black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-display {
+    height: 80px;
+}
+
+.timer-buttons {
+    display: flex;
+    margin: 20px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.start {
+    background-color: green;
+    color: white;
+}
+
+.pause {
+    background-color: red;
+    color: white;
+}
+
+.reset {
+    background-color: blue;
+    color: white;
+}
