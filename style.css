@@ -4,50 +4,46 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #068FFF;
+    
+}
+
 .timer {
-    border: 2px solid black;
+    width: auto;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #ef233c; */
 }
 
 .timer-display {
-    height: 80px;
-    font-size: 48px;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
 }
 
-.timer-buttons {
-    display: flex;
-    margin: 20px;
+.timer-display h1 {
+    font-size: 100px;
+    color: #fff;
 }
 
 .btn {
-    padding: 10px;
-    margin: 20px;
-    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
     cursor: pointer;
-    border: none;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #068FFF;
+    color: white;
     
 }
 
-.start {
-    /* background-color: green; */
-    color: #fff;
-    background-color: #60d394;
+.btn:hover {
+    filter: brightness(120%);
 }
 
-.pause {
-    background-color: #ff5a5f;
-    color: white;
-}
-
-.reset {
-    background-color: #3fa7d6;
-    color: white;
-}
