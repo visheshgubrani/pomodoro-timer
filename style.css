@@ -11,7 +11,7 @@ body {
 
 .timer {
     width: auto;
-    height: 400px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 
 .timer-display {
     padding: 20px;
-    margin: 10px auto;
+    
 }
 
 .timer-display h1 {
